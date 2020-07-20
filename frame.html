@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=download.0">
+    <title>Document</title>
+    <style>
+        .photo-album{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    .photo-frame{
+        width: 300px;
+        height: 200px;
+        border-radius: 8px;
+        border: 5px solid goldenrod;
+        position: relative;
+        margin: 5px;
+        overflow: hidden;
+    }
+    .photo-frame .photo img{
+        width: 100%;
+        height: 200px;
+    }
+    .photo-details{
+        position: absolute;
+        width: 300px;
+        height: 200px;
+        top: 0;
+        display: none;
+    }
+    .photo-frame:hover .photo-details{
+        display: block;
+        background-color: rgb(2download8, 165, 32, .4);
+    }
+    .photo-frame:hover .photo-details h3{
+        background-color: rgb(234, 39, 241);
+        color: white;
+        text-align: center;
+    }
+    .photo-frame:hover .photo-details p{
+        color: white;
+        text-align: justify;
+        padding: 10px;
+    }
+    .photo-frame:hover .photo img{
+        transform: scale(1.5);
+        transition: transform 1s;
+    }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">My Photo Book</h1>
+    <section class="photo-album">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="download.jpg" alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam obcaecati dicta tempora assumenda maiores expedita possimus nesciunt voluptate, similique culpa voluptatem eos, a nobis inventore velit eius dignissimos perferendis suscipit?</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="download.jpg" alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam obcaecati dicta tempora assumenda maiores expedita possimus nesciunt voluptate, similique culpa voluptatem eos, a nobis inventore velit eius dignissimos perferendis suscipit?</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="download.jpg" alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam obcaecati dicta tempora assumenda maiores expedita possimus nesciunt voluptate, similique culpa voluptatem eos, a nobis inventore velit eius dignissimos perferendis suscipit?</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="download.jpg" alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam obcaecati dicta tempora assumenda maiores expedita possimus nesciunt voluptate, similique culpa voluptatem eos, a nobis inventore velit eius dignissimos perferendis suscipit?</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="download.jpg" alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam obcaecati dicta tempora assumenda maiores expedita possimus nesciunt voluptate, similique culpa voluptatem eos, a nobis inventore velit eius dignissimos perferendis suscipit?</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="download.jpg" alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam obcaecati dicta tempora assumenda maiores expedita possimus nesciunt voluptate, similique culpa voluptatem eos, a nobis inventore velit eius dignissimos perferendis suscipit?</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="download.jpg" alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam obcaecati dicta tempora assumenda maiores expedita possimus nesciunt voluptate, similique culpa voluptatem eos, a nobis inventore velit eius dignissimos perferendis suscipit?</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="download.jpg" alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam obcaecati dicta tempora assumenda maiores expedita possimus nesciunt voluptate, similique culpa voluptatem eos, a nobis inventore velit eius dignissimos perferendis suscipit?</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
